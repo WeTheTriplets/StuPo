@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600,400italic);
+
+
+button[type="submit"]:hover,button[id="reset"]:hover  {
+		opacity:0.5;
+		background-color:  #73bba1;
+		color: white;
+		-webkit-transition-duration: 0.4s;
+		transition-duration: 0.4s;
+}
+
+body {
+		position: relative;
+		margin: 0;		
+		min-height: 100%;
+		text-align: left;
+		
+		font-weight: 100;
+		font-size: 12px;
+		line-height: 30px;
+		color: #777;  
+}
+
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+}
+
+#register {
+		
+		width: 100%;
+		margin: 0 auto;
+		position: static;
+		background: #fff;
+		border-radius: 3px;
+		
+}
+
+#concession input[type="password"],
+#concession input[type="tel"],
+#concession input[type="url"],
+#concession input[type="email"],
+#concession input[type="text"],
+#concession input[id="fromstation"],
+#concession input[id="tostation"],
+
+#concession input[id="railline"],
+#concession textarea  {
+		font: 400 12px/16px ;
+}
+
+#concession {
+		background: #F9F9F9;
+		padding: 25px;
+		margin: 100px 0;
+		border: 1px solid #ccc;
+}
+
+#concession h3 {
+		display: block;
+		font-size: 30px;
+		font-weight: 300;
+		margin-bottom: 25px;
+		text-align: center;
+}
+
+fieldset {
+		border: medium none !important;
+		border-style: groove;
+		min-width: 100%;
+		padding: 10px 0 0 0;
+		width: 100%;
+		margin-top: 10px;
+}
+
+#concession input[type="tel"],
+#concession input[type="email"],
+#concession input[type="text"],
+#concession input[type="password"],
+
+#concession input[type="date"],
+#concession textarea {
+		width: 100%;
+		border: 1px solid #ccc;
+		background: #FFF;
+		margin: 0 0 5px;
+		padding: 10px;
+		color: #777;  
+}
+
+input[type="date"]
+{
+		width: 100%;
+		border: 1px solid #ccc;
+		background: #FFF;
+		margin: 0 0 5px;
+		padding: 10px;
+		color: #777;  
+}
+
+button[type="submit"],button[id="reset"] {
+		width: 45%;
+		border: none;
+		background: #73bba1;
+		color: #FFF;
+		margin: 0 0 5px;
+		padding: 10px;
+		font-size: 15px;
+}
+
+
+
+input[type=date] {
+  height: 35px;
+  margin: 5px auto;
+  width: 100%;
+  font-family: sans-serif,times new roman;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: lighten(#2f2f2f,40%);
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 3px;
+  color: #fff;
+
+     
+    &:hover {
+      background-color: lighten(#2f2f2f,40%);
+      color: darken(#fff, 10%);
+      cursor: pointer;
+    }
+    &:active {
+      color: blue;
+    }
+  
+}
+

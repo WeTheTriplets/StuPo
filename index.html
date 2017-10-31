@@ -1,0 +1,211 @@
+<html>
+	<head>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="hdrftr.css">
+	</head>
+	<body id="bodyctn" data-spy="scroll" data-target=".navbar" data-offset="60">
+	<div class="header">
+		<fieldset>
+		
+			<a href="stupo.html"><img class="logo" src="StuPoLogo.png"></a>
+			<a href="stupo.html"><button name="stupo" type="button" id="stupo">Student Portal</button></a>					  			 
+			<a href="register.html"><button name="register" type="button" id="register">Register</button></a>	
+			<a href="login.html"><button name="login" type="button" id="login">Log In</button></a>	
+		
+		</fieldset>
+		<fieldset><nav><ul>
+			<li><a class="active" href="stupo.html">Home</a></li>			
+			<li><a href="#whatsnew">What's New</a></li>
+			<li><a href="#about">About Us</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+		</ul></nav></fieldset>
+	</div>	
+	
+	<!-- Container (The What's New Section) -->
+	<div id="whatsnew" class="container-fluid">
+		<div class="container-fluid whatsnewbg">
+			<div class="container col-lg-8 bggrey">
+				<h3>Stupo is here !!!</h3>
+			  <p>For You</p>
+			  <p>The all new StuPo has arrived in town to ease pressure off Student's back. You can easily book a concession in minutes without any hassle of standing in queues making tasks simpler and easier.</p><p>
+			  <p>So what are you waiting for... Get REGISTERED at StuPo and save your precious time !<p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Container (The Team Section) -->
+	<div id="about" class="container-fluid">
+	<div class="container-fluid teambg">
+	<div class="container text-center">
+		  <h3>THE TRIPLETS</h3>
+		  <p>We love to code!</p>
+		  <p>We have created a Student Portal website. Team Triplets was founded as a secret society of underwater divers who decided to learn code. No, that's not true. But we were founded by social scientists, a lead vocalist and a nerdy engineer who had a vision for making students tasks simpler and easier.</p>
+		  <br>
+		  <div class="row">
+			<div class="col-sm-4">
+			  <p class="text-center"><strong>Atul</strong></p><br>
+			  <a href="#demo" data-toggle="collapse">
+				<img src="fauser.jpg" class="img-circle person" alt="user" width="255" height="255">
+			  </a>
+			  <div id="demo" class="collapse">
+				<p>aka MockingBird</p>
+				<p>Hardcore Coder</p>
+				<p>Loves coding and only coding</p>        
+			  </div>
+			</div>
+			<div class="col-sm-4">
+			  <p class="text-center"><strong>Akshay</strong></p><br>
+			  <a href="#demo2" data-toggle="collapse">
+				<img src="fauser.jpg" class="img-circle person" alt="user" width="255" height="255">
+			  </a>
+			  <div id="demo2" class="collapse">
+				<p>aka amiwhatiam</p>
+				<p>Vocalist n Coder</p>
+				<p>Loves singing n coding</p>        
+			  </div>
+			</div>
+			<div class="col-sm-4">
+			  <p class="text-center"><strong>Niraj</strong></p><br>
+			  <a href="#demo3" data-toggle="collapse">
+				<img src="fauser.jpg" class="img-circle person" alt="user" width="255" height="255">
+			  </a>
+			  <div id="demo3" class="collapse">
+				<p>aka Neerja</p>
+				<p>Guitarist n Coder</p>
+				<p>Loves strumming n coding</p>        
+			  </div>
+			</div>
+		  </div></div>
+	</div>
+	</div>
+	<!-- Container (Contact Section) -->
+	<div id="contact" class="container-fluid">
+	  <h2 class="text-center">CONTACT</h2>
+	  <div class="row">
+		<div class="col-sm-5">
+		  <p>Contact us and we'll get back to you within 24 hours.</p>
+		  <p><span class="glyphicon glyphicon-map-marker"></span> K. J. Somaiya College Of Engineering, Vidyavihar, Mumbai</p>
+		  <p><span class="glyphicon glyphicon-phone"></span> +91 9999999999</p>
+		  <p><span class="glyphicon glyphicon-envelope"></span> mailtotriplets@gmail.com</p>
+		</div>
+		<div class="col-sm-7 slideanim">
+		  <form role="form" id="contactForm" class="contact-form" data-toggle="validator" >
+				  <div class="form-group required col-sm-12 col-md-4">
+					<div class="controls">
+					  <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+					  <div class="help-block with-errors"></div>
+					</div>
+				  </div>
+				  <div class="form-group col-sm-12 col-md-4">
+					<div class="controls">
+					  <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please check your email address">
+					  <div class="help-block with-errors"></div>
+					</div>
+				  </div>		
+					<div class="form-group col-sm-12 col-md-4">
+					<div class="controls">
+					  <input type="text" id = "phone" class="form-control bfh-phone" data-country="India" placeholder="Phone number" required data-error="Please enter your phone number">
+					  <div class="help-block with-errors"></div>
+					</div>
+				  </div>				  
+				  <div class="form-group col-sm-12 col-md-12">
+					<div class="controls">
+					  <textarea id="message" rows="7" placeholder="Message" class="form-control" required data-error="Write your message"></textarea>
+					  <div class="help-block with-errors"></div>
+					</div>  
+				  </div>
+				
+				  <button type="submit" id="submit" class="btn btn-success center"> Send Message</button>
+				  <div id="msgSubmit" class="h3 text-center hidden"></div> 
+				  <div class="clearfix"></div>  
+
+		</form>     
+		</div>
+	</div>
+
+	<!-- Add Google Maps -->
+	<div id="googleMap" style="height:400px;width:100%;"><iframe width=100% height=100% frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqcoLoifG5zsRKgXA6s87_bI&key=AIzaSyDRBmZOu_TAou6zkVtGTcVuji2tnush-Kg" allowfullscreen></iframe></div>
+	<script>
+		function myMap() {
+			var myCenter = new google.maps.LatLng(19.073084, 72.899822);
+			var mapProp = {center:myCenter, zoom:15%, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			var marker = new google.maps.Marker({position:myCenter});
+			marker.setMap(map);
+		}
+	</script>
+
+	<a href="#bodyctn" title="To top"><button id="myBtn" type="button" class="btn btn-default btn-circle btn-lg"><i class="glyphicon glyphicon-chevron-up"></i></button></a>
+			
+	<footer class="footer-distributed" id="myFooter">            
+	   <div class="container text-center">
+		   <div class="footer-left col-sm-4">
+				<a href="#">Made by The Triplets</a>
+			</div>
+			<div class="footer-center col-sm-4">          			
+				<a href="#about">About Us</a>
+				<a href="#contact">Contact Us</a> 
+			</div>
+			<div class="footer-right social-icons col-sm-4">
+				<a href="#" class="icon"><i class="fa fa-twitter"></i></a>
+				<a href="#" class="icon"><i class="fa fa-facebook"></i></a>
+				<a href="#" class="icon"><i class="fa fa-github"></i></a>
+			</div>
+		</div>        
+	</footer>
+	</body>
+	<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, a[href='#bodyctn'],a[href='#contact'],a[href='#about'],a[href='#whatsnew']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</html>
