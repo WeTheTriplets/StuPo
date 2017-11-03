@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600,400italic);
+
+body {
+      font: 400 20px/25px "Raleway";
+      color: #777;
+	  width:100%;
+  }
+  h3 {
+      font:  60px/80px "Raleway";      
+      
+  }
+  h4 {
+      margin: px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+  }
+
+  .person {
+      
+	  box-shadow: 0 5px 10px rgba(0,0,0,0.9);
+	  transition: 0.2s ease-in-out;
+      margin-bottom: 25px;
+      width: 50%;
+      height: 22%;
+      opacity: 0.5;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+	  opacity:0.9;
+  }
+  .bggrey{
+	  background-color:#f2f2f2;
+	  opacity:0.5;
+	  
+  }
+
+ #whatsnew .container{
+	  	padding: 30px 50px;
+		font:  30px/50px "Raleway";		
+  }
+  .whatsnewbg{
+	background:url(header.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	width: 100%;
+	height: 600px;
+	color:#000;
+
+}
+#about .container{
+	padding: 40px 140px;
+	
+}
+  .teambg{
+	background:url(space.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:#fff;
+	width: 100%;
+	height: 700px;
+
+}

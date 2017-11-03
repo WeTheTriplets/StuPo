@@ -1,0 +1,114 @@
+﻿<html>
+	<head>
+		<link rel="stylesheet" href="csslogin.css">
+		<link rel="stylesheet" href="hdrftr.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		
+	</head>
+	<body id="bodyctn" data-spy="scroll" data-target=".navbar" data-offset="60">
+		<div class="header">
+			<fieldset>
+				<a href="stupo.html"><img class="logo" src="StuPoLogo.png"></a>
+				<a href="stupo.html"><button name="stupo" type="button" id="stupo">Student Portal</button></a>
+				<a href="register.html"><button name="register" type="button" id="register">Register</button></a>
+				<a href="login.html"><button name="login" type="button" id="login">Log In</button></a>
+			</fieldset>
+			<fieldset><ul>
+				<li><a class="active" href="stupo.html">Home</a></li>
+				<li><a href="#blah">Template</a></li>
+				<li><a href="#blah">What's New</a></li>
+				<li><a href="#blah">About Us</a></li>
+				<li><a href="#blah">Contact Us</a></li>
+			</ul></fieldset>
+		</div>
+		
+		
+		<div class="mainbody" id = "mainbody_pos">
+			<div id="login">
+				<form id="contact" action="login_data.php" method="post">
+					<h3>Login Page</h3>
+					
+					
+					<fieldset>
+						<input placeholder="Your ID number" type="tel" tabindex="4" name ="user_name" required>
+					</fieldset>
+					<fieldset>
+						<input placeholder="Your Password" type="password" tabindex="4" name ="user_password" required>
+					</fieldset>
+					<fieldset>
+						<input type="checkbox" name="rememberme" value="rememberme"> Keep me Logged In<br>
+					</fieldset>
+					<fieldset>
+						<button name="submit" type="submit" id="contact-submit">Log In</button>
+						<a href="register.html"><button name="register" type="button" id="newuser" >New User ?</button></a>
+					</fieldset>
+					<fieldset>
+						<a href="fgtpwd.html" style="text-decoration:none"> Forgot Password<br>
+						</fieldset>
+					</div>
+				</div>
+				<a href="#bodyctn" title="To top"><button id="myBtn" type="button" class="btn btn-default btn-circle btn-lg"><i class="glyphicon glyphicon-chevron-up"></i></button></a>
+				
+				<footer class="footer-distributed" id="myFooter">
+					<div class="container text-center">
+						<div class="footer-left col-sm-4">
+							<a href="#">Made by The Triplets</a>
+						</div>
+						<div class="footer-center col-sm-4">
+							<a href="index.html/#about">About Us</a>
+							<a href="index.html/#contact">Contact Us</a>
+						</div>
+						<div class="footer-right social-icons col-sm-4">
+							<a href="#" class="icon"><i class="fa fa-twitter"></i></a>
+							<a href="#" class="icon"><i class="fa fa-facebook"></i></a>
+							<a href="#" class="icon"><i class="fa fa-github"></i></a>
+						</div>
+					</div>
+				</footer>
+			</body>
+			<script>
+			$(document).ready(function(){
+			// Add smooth scrolling to all links in navbar + footer link
+			$("a[href='#bodyctn']").on('click', function(event) {
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+			// Prevent default anchor click behavior
+			event.preventDefault();
+			// Store hash
+			var hash = this.hash;
+			// Using jQuery's animate() method to add smooth page scroll
+			// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+			$('html, body').animate({
+			scrollTop: $(hash).offset().top
+			}, 900, function(){
+			
+			// Add hash (#) to URL when done scrolling (default click behavior)
+			window.location.hash = hash;
+			});
+			} // End if
+			});
+			
+			window.onscroll = function() {scrollFunction()};
+			function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("myBtn").style.display = "block";
+			} else {
+			document.getElementById("myBtn").style.display = "none";
+			}
+			}
+			
+			$(window).scroll(function() {
+			$(".slideanim").each(function(){
+			var pos = $(this).offset().top;
+			var winTop = $(window).scrollTop();
+			if (pos < winTop + 600) {
+			$(this).addClass("slide");
+			}
+			});
+			});
+			})
+			</script>
+		</html>
