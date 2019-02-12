@@ -1,26 +1,26 @@
 [
   {
     "name": "Vivo",
-    "species" : "causes",
-    "foods": {
-      "likes": ["stir", "market"],
-      "dislikes": ["in", "the"]
+    "phonetype" : "budget",
+    "phone": {
+      "likes": ["long battery", "slim design"],
+      "dislikes": ["high price"]
     }
   },
   {
-    "name": "Barky",
-    "species" : "dog",
-    "foods": {
-      "likes": ["bones", "carrots"],
-      "dislikes": ["tuna"]
+    "name": "Oppo",
+    "phonetype" : "budget",
+    "phone": {
+      "likes": ["low price"],
+      "dislikes": ["poor battery"]
     }
   },
   {
-    "name": "Purrpaws",
-    "species" : "cat",
-    "foods": {
-      "likes": ["mice"],
-      "dislikes": ["cookies"]
+    "name": "OnePlus",
+    "phonetype" : "high end",
+    "phone": {
+      "likes": ["good camera"],
+      "dislikes": ["heating problem"]
     }
   }
 ]
