@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Vivo",
+    "species" : "causes",
+    "foods": {
+      "likes": ["stir", "market"],
+      "dislikes": ["in", "the"]
+    }
+  },
+  {
+    "name": "Barky",
+    "species" : "dog",
+    "foods": {
+      "likes": ["bones", "carrots"],
+      "dislikes": ["tuna"]
+    }
+  },
+  {
+    "name": "Purrpaws",
+    "species" : "cat",
+    "foods": {
+      "likes": ["mice"],
+      "dislikes": ["cookies"]
+    }
+  }
+]
